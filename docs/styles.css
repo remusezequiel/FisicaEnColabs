@@ -31,6 +31,7 @@ ul {
 
 /* Navigation */
 .nav-main {
+  z-index: 10;
   font-size: 17px;
   display: flex;
   justify-content: space-between;
@@ -291,6 +292,7 @@ hr {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 10;
     background: #2f3640;
     width: 50%;
     height: 100%;
