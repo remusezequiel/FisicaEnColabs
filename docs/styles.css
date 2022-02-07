@@ -281,6 +281,7 @@ hr {
 @media (max-width: 700px) {
   .menu-btn {
     display: block;
+    position: fixed;
   }
 
   .menu-btn:hover {
@@ -289,7 +290,7 @@ hr {
 
   .nav-main ul.nav-menu {
     display: block;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 10;
